@@ -1,0 +1,28 @@
+I want you to generate a unit test, using the JUnit testing framework, 
+This test is used to verify that the vulnerability was successfully triggered,
+You can't have non-existent method calls in the results you give,
+Just generate a single test method,
+For fuzzy parameters, give specific commonly used types, such as Object,String and so on,
+Only the function under test statement is wrapped by a try catch statement(Excluding assert statement), the Exception class uses an exception, and does nothing after the catch,
+The code corresponds to the function being tested, with context information, for example: 
+
+The source code of the function under test is (The unit test should test this function):
+public Reader getResourceReader ( String source , String encoding ) throws ResourceNotFoundException { Reader result = null ; if ( org . apache . commons . lang3 . StringUtils . isEmpty ( source ) ) { throw new ResourceNotFoundException ( "Need to have a resource!" ) ; } System . out . println ( "we get" + result ) ; String normalizedPath = FilenameUtils . normalize ( source , true ) ; System . out . println ( "we make" + normalizedPath ) ; if ( normalizedPath == null || normalizedPath . length ( ) == 0 ) { String msg = "JAR resource error: argument " + normalizedPath + " contains .. and may be trying to access " + "content outside of template root.  Rejected." ; log . error ( "JarResourceLoader: {}" , msg ) ; throw new ResourceNotFoundException ( msg ) ; } if ( normalizedPath . startsWith ( "/" ) ) { normalizedPath = normalizedPath . substring ( 1 ) ; } if ( entryDirectory . containsKey ( normalizedPath ) ) { String jarurl = ( String ) entryDirectory . get ( normalizedPath ) ; if ( jarfiles . containsKey ( jarurl ) ) { JarHolder holder = ( JarHolder ) jarfiles . get ( jarurl ) ; InputStream rawStream = holder . getResource ( normalizedPath ) ; try { return buildReader ( rawStream , encoding ) ; } catch ( Exception e ) { if ( rawStream != null ) { try { rawStream . close ( ) ; } catch ( IOException ioe ) { } } String msg = "JAR resource error: Exception while loading " + source ; log . error ( msg , e ) ; throw new VelocityException ( msg , e ) ; } } } throw new ResourceNotFoundException ( "JarResourceLoader Error: cannot find resource " + source ) ; } 
+
+and the class name of the function under test is:
+JarResourceLoader
+
+The vulnerable third-party library function and the class to which the function belongs are:
+class name:FilenameUtils
+method name:normalize
+
+The input variable name for this unit test is "input", and the value of this "input" is:
+\\foo\\.\bar
+
+After declaring test input data, you need to call the following statement:
+MethodCallInterceptor.interceptor(
+org.apache.commons.io.FilenameUtils.normalize.class,"normalize", new Object[]{input}
+);
+
+The assert statement to verify that the vulnerability was successfully triggered is fixed as:
+assertTrue(MethodCallInterceptor.isTrigger);

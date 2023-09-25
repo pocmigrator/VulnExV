@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc1387b2-91d3-4403-91be-967032f16151" name="Changes" comment="\">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8BaseListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8BaseVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8Lexer.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8Lexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8Lexer.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antlr/Java8Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/src.zip!/java/lang/RuntimeException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7-sources.jar!/org/antlr/v4/runtime/NoViableAltException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7-sources.jar!/org/antlr/v4/runtime/RecognitionException.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TQQWmTmJZt9NyCSz4CgJOxFNEv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_directory_selection": "/Users/gaoyi/IdeaProjects/LLMPocMigration/src/test/java",
+    "last_opened_file_path": "/Users/gaoyi/IdeaProjects/LLMPocMigration/dataset/poc/file/cve-2021-31812/proj2",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="demo.test.demo1test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/poc/file/cve-2021-31812/proj2" />
+      <recent name="$PROJECT_DIR$/dataset/poc/file/cve-2021-31812/proj1" />
+      <recent name="$PROJECT_DIR$/dataset/poc/file/cve-2021-31812" />
+      <recent name="$PROJECT_DIR$/dataset/poc/file/cve-2021-29425" />
+      <recent name="$PROJECT_DIR$/dataset/poc/file/io-611/proj2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/poc/file/cve-2019-12415/proj1" />
+      <recent name="$PROJECT_DIR$/dataset/poc/json/cve-2023-1370/proj2" />
+      <recent name="$PROJECT_DIR$/dataset/poc/base/codec-263/proj1" />
+      <recent name="$PROJECT_DIR$/dataset/poc/xstream" />
+      <recent name="$PROJECT_DIR$/dataset/poc/CVE-2017-7957/proj1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo.test.demo1test" />
+      <recent name="" />
+      <recent name="utils" />
+      <recent name="core.entity.enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LLMPocMigration" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetToJsonBytesConverterTest.testVulnerabilityTriggered" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LLMPocMigration" />
+      <option name="PACKAGE_NAME" value="demo.test.demo1test" />
+      <option name="MAIN_CLASS_NAME" value="demo.test.demo1test.SetToJsonBytesConverterTest" />
+      <option name="METHOD_NAME" value="testVulnerabilityTriggered" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBase.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LLMPocMigration" />
+      <option name="PACKAGE_NAME" value="demo.test.demo1test" />
+      <option name="MAIN_CLASS_NAME" value="demo.test.demo1test.TestBase" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlUtilTest.testVulnerabilityTriggered2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LLMPocMigration" />
+      <option name="PACKAGE_NAME" value="demo.test.demo1test" />
+      <option name="MAIN_CLASS_NAME" value="demo.test.demo1test.XmlUtilTest" />
+      <option name="METHOD_NAME" value="testVulnerabilityTriggered2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlUtilTest.testXml2ObjCallsVulnerabilityMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LLMPocMigration" />
+      <option name="PACKAGE_NAME" value="demo.test.demo1test" />
+      <option name="MAIN_CLASS_NAME" value="demo.test.demo1test.XmlUtilTest" />
+      <option name="METHOD_NAME" value="testXml2ObjCallsVulnerabilityMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SetToJsonBytesConverterTest.testVulnerabilityTriggered" />
+        <item itemvalue="JUnit.XmlUtilTest.testVulnerabilityTriggered2" />
+        <item itemvalue="JUnit.TestBase.test" />
+        <item itemvalue="JUnit.XmlUtilTest.testXml2ObjCallsVulnerabilityMethod" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc1387b2-91d3-4403-91be-967032f16151" name="Changes" comment="" />
+      <created>1690972860690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690972860690</updated>
+      <workItem from="1690972864352" duration="3319000" />
+      <workItem from="1691110792310" duration="5021000" />
+      <workItem from="1691390692436" duration="3544000" />
+      <workItem from="1691394294818" duration="2127000" />
+      <workItem from="1691398898383" duration="42000" />
+      <workItem from="1691398973835" duration="7932000" />
+      <workItem from="1691564629880" duration="127000" />
+      <workItem from="1691582077415" duration="631000" />
+      <workItem from="1691591069447" duration="598000" />
+      <workItem from="1691651606696" duration="1601000" />
+      <workItem from="1692155061079" duration="202000" />
+      <workItem from="1692156933331" duration="2369000" />
+      <workItem from="1692233729617" duration="2423000" />
+      <workItem from="1692321585369" duration="598000" />
+      <workItem from="1692428589233" duration="1286000" />
+      <workItem from="1692664934452" duration="597000" />
+      <workItem from="1692692570421" duration="1229000" />
+      <workItem from="1692840147870" duration="21570000" />
+      <workItem from="1692886121620" duration="15197000" />
+      <workItem from="1692975085712" duration="29102000" />
+      <workItem from="1693271494958" duration="21610000" />
+      <workItem from="1693447912577" duration="13290000" />
+      <workItem from="1693529004837" duration="40088000" />
+      <workItem from="1693875817820" duration="35947000" />
+      <workItem from="1693991551274" duration="29945000" />
+      <workItem from="1694134268190" duration="18299000" />
+      <workItem from="1694226137404" duration="19000" />
+      <workItem from="1694226219397" duration="1000" />
+      <workItem from="1694227490985" duration="7202000" />
+      <workItem from="1694260752724" duration="7629000" />
+      <workItem from="1694402884001" duration="2282000" />
+      <workItem from="1694529442639" duration="30473000" />
+      <workItem from="1695087718117" duration="1539000" />
+      <workItem from="1695230349131" duration="600000" />
+      <workItem from="1695264219069" duration="2814000" />
+      <workItem from="1695284570584" duration="16037000" />
+      <workItem from="1695353260167" duration="116000" />
+      <workItem from="1695353423980" duration="7224000" />
+      <workItem from="1695370167633" duration="16874000" />
+      <workItem from="1695452990673" duration="7075000" />
+      <workItem from="1695477847317" duration="1518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/visitor/MethodCallVisitor.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/VulCodeReachableProcessor.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/XmlUtil.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/MethodCallChainProcessor.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/ParameterTranslationProcessor.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/prompt/PromptGenerator.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/VulCodeReachableProcessor.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/VulCodeReachableProcessor.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/ParameterTranslationProcessor.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/ParameterTranslationProcessor.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/Initializer.java</url>
+          <line>190</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/visitor/MethodCallTreeVisitor.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/visitor/MethodCallTreeVisitor.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/processor/visitor/MethodCallTreeVisitor.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="99" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="caller" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

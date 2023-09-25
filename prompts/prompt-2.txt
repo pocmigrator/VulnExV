@@ -1,0 +1,28 @@
+I want you to generate a unit test, using the JUnit testing framework, 
+This test is used to verify that the vulnerability was successfully triggered,
+You can't have non-existent method calls in the results you give,
+Just generate a single test method,
+For fuzzy parameters, give specific commonly used types, such as Object,String and so on,
+Only the function under test statement is wrapped by a try catch statement(Excluding assert statement), the Exception class uses an exception, and does nothing after the catch,
+The code corresponds to the function being tested, with context information, for example: 
+
+The source code of the function under test is (The unit test should test this function):
+public Reader getResourceReader ( String templateName , String encoding ) throws ResourceNotFoundException { if ( org . apache . commons . lang3 . StringUtils . isEmpty ( templateName ) ) { throw new ResourceNotFoundException ( "Need to specify a file name or file path!" ) ; } String template = FilenameUtils . normalize ( templateName , true ) ; if ( template == null || template . length ( ) == 0 ) { String msg = "File resource error: argument " + template + " contains .. and may be trying to access " + "content outside of template root.  Rejected." ; log . error ( "FileResourceLoader: {}" , msg ) ; throw new ResourceNotFoundException ( msg ) ; } int size = paths . size ( ) ; for ( String path : paths ) { InputStream rawStream = null ; Reader reader = null ; try { rawStream = findTemplate ( path , template ) ; if ( rawStream != null ) { reader = buildReader ( rawStream , encoding ) ; } } catch ( IOException ioe ) { closeQuiet ( rawStream ) ; String msg = "Exception while loading Template " + template ; log . error ( msg , ioe ) ; throw new VelocityException ( msg , ioe ) ; } if ( reader != null ) { templatePaths . put ( templateName , path ) ; return reader ; } } throw new ResourceNotFoundException ( "FileResourceLoader: cannot find " + template ) ; } 
+
+and the class name of the function under test is:
+FileResourceLoader
+
+The vulnerable third-party library function and the class to which the function belongs are:
+class name:FilenameUtils
+method name:normalize
+
+The input variable name for this unit test is "input", and the value of this "input" is:
+\\foo\\.\bar
+
+After declaring test input data, you need to call the following statement:
+MethodCallInterceptor.interceptor(
+org.apache.commons.io.FilenameUtils.normalize.class,"normalize", new Object[]{input}
+);
+
+The assert statement to verify that the vulnerability was successfully triggered is fixed as:
+assertTrue(MethodCallInterceptor.isTrigger);

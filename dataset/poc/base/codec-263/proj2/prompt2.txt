@@ -1,0 +1,28 @@
+I want you to generate a unit test, using the JUnit testing framework,
+This test is used to verify that the vulnerability was successfully triggered,
+You can't have non-existent method calls in the results you give,
+Just generate a single test method,
+For fuzzy parameters, give specific commonly used types, such as Object,String and so on,
+Only the function under test statement is wrapped by a try catch statement(Excluding assert statement), the Exception class uses an exception, and does nothing after the catch,
+The code corresponds to the function being tested, with context information, for example:
+
+The source code of the function under test is (The unit test should test this function):
+public static String base64Decoding ( String src ) { byte [ ] b ; String result = null ; if ( src != null ) { try { b = Base64 . decodeBase64 ( src ) ; result = new String ( b , UTF_8 ) ; } catch ( Exception e ) { throw new RuntimeException ( "BASE64 decoding error:" , e ) ; } } return result ; }
+
+and the class name of the function under test is:
+CodingUtil
+
+The vulnerable third-party library function and the class to which the function belongs are:
+class name:Base64
+method name:decodeBase64
+
+The variable name of input data is input, and the test input data for this unit test is:
+publishMessage
+
+After declaring test input data, you need to call the following statement:
+MethodCallInterceptor.interceptor(
+org.apache.commons.codec.binary.Base64.class,"decodeBase64", new Object[]{input}
+);
+
+The assert statement to verify that the vulnerability was successfully triggered is fixed as:
+assertTrue(MethodCallInterceptor.isTrigger);

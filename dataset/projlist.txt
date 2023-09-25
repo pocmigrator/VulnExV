@@ -1,0 +1,22 @@
+
+
+public class People{
+
+    void say(String message){
+        //...
+    }
+
+    void say(int phoneNumber){
+        //..
+    }
+
+    void say(Object o){
+        //..
+    }
+    public void test(){
+        People p = new People();
+        p.say("123");
+        p.say(new File());
+    }
+}
+
