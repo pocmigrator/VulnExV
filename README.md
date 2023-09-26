@@ -1,6 +1,6 @@
 # VulnExV
 
-paper: Automated Vulnerability Exploitation Verification for Third-party Library Dependencies in Client Software
+Paper: Automated Vulnerability Exploitation Verification for Third-party Library Dependencies in Client Software
 
 ## Abstract
 > In modern software development, open-source third-party libraries are widely used. These libraries offer
@@ -24,3 +24,5 @@ of VulnExV, with 166 out of 204 generated unit tests successfully confirming vul
 
 
 ## Usage
+1. task param
+2. execute Main
