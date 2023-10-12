@@ -31,6 +31,7 @@ of VulnExV, with 166 out of 204 generated unit tests successfully confirming vul
 ![img.png](img.png)  
 
 A generated test may look like this:  
+
 ![img_1.png](img_1.png)
 
 ## Usage
