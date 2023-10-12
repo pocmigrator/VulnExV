@@ -7,81 +7,6 @@
     <list default="true" id="bc1387b2-91d3-4403-91be-967032f16151" name="Changes" comment="\">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/callgraph.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/callgraph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/poc/xstream/CVE-2017-7957/proj1/prompt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/poc/xstream/CVE-2017-7957/proj1/prompt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/projlist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/chaindemo/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/chaindemo/Codec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/chaindemo/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/chaindemo/JSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/chaindemo/JSONVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/chaindemo/JSONVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/chaindemo/StringMapConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/chaindemo/StringMapConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/chaindemo/XstreamCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/chaindemo/XstreamCodec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/CoreTokenField.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/CoreTokenField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/JsonValueToJsonBytesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/JsonValueToJsonBytesConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/LongToCalendarConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/LongToCalendarConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/MapToJsonBytesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/MapToJsonBytesConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/MapToJsonStringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/MapToJsonStringConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/SetToJsonBytesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/SetToJsonBytesConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/TokenType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo10/tokens/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo10/tokens/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo11/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo11/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo12/FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo12/FileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo2/Iciql.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo2/Iciql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo2/SQLDialect.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo2/SQLDialect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo2/SQLDialectDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo2/SQLDialectDefault.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo2/TableDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo2/TableDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo2/XStreamTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo2/XStreamTypeAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo2/XmlObjectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo2/XmlObjectAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo3/EventSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo3/EventSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo3/JdbcEventStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo3/JdbcEventStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo3/XStreamEventSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo3/XStreamEventSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo4/XmlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo4/XmlUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo5/AClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo5/AClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo6/AesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo6/AesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo6/CredentialsMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo6/CredentialsMatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo6/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo6/PasswordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo7/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo7/PasswordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo8/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo8/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/demo9/XMLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/demo/demo9/XMLUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompts/prompt-1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompts/prompt-2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompts/prompt-3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/processor/ErrorListenerWithException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/processor/ErrorListenerWithException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/processor/MethodCallChainProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/processor/MethodCallChainProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/VirtualCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/VirtualCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/example/DataFlowAnalysisVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/example/DataFlowAnalysisVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/example/ParameterSourceAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/example/ParameterSourceAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/sootdemo/CallGraphExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/sootdemo/CallGraphExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/sootdemo/SootDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/sootdemo/SootDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/sootdemo/callgraph/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/sootdemo/callgraph/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/sootdemo/callgraph/MyClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/sootdemo/callgraph/MyClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/CallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/CallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/chain/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/chain/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/classname/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/classname/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/classname/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/classname/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/classname/dir1/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/classname/dir1/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/demo1/Component1.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/demo1/Component1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/demo1/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/demo1/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/demo1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/demo1/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/demo2/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/demo2/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/demo2/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/demo2/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/demo2/IA.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/demo2/IA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/test/demo2/TestA.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/code/demo/test/demo2/TestA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/CallUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/CallUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/XmlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/XmlUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/task-backup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/task-backup.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/task.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/task.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/test/demo1test/ConsoleCaptureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/test/demo1test/ConsoleCaptureExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/test/demo1test/MethodCallInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/test/demo1test/MethodCallInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/test/demo1test/TMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/test/demo1test/TMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/test/demo1test/XmlUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/test/demo1test/XmlUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/testdata/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/demo1/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/testdata/demo1/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/todo.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +195,7 @@
       <workItem from="1695477847317" duration="7611000" />
       <workItem from="1695716311348" duration="6902000" />
       <workItem from="1695978690288" duration="1726000" />
-      <workItem from="1697075513131" duration="1155000" />
+      <workItem from="1697075513131" duration="1417000" />
     </task>
     <servers />
   </component>
