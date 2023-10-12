@@ -30,8 +30,25 @@ of VulnExV, with 166 out of 204 generated unit tests successfully confirming vul
 
 ![img.png](img.png)  
  
+A generated test may look like this:  
 
-![img_1.png](img_1.png)
+```java
+@Test public void testXml2ObjCallsVulnerabilityMethod() {
+    String input = "<void>";
+    // Set up an interceptor to detect calls to the XStream.fromXML method
+    MethodCallInterceptor.interceptor(
+        com.thoughtworks.xstream.XStream.class, "fromXML", new Object[]{input});
+    try {
+        XmlUtil.xml2Obj(input, Object.class);
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+    // Verify if a call to the XStream.fromXML method was triggered
+    assertTrue(MethodCallInterceptor.isTrigger);
+}
+
+
+```
 
 ## Usage
 ### Step 1: Task Parameter Configuration
