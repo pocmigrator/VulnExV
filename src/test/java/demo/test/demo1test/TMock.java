@@ -20,7 +20,6 @@ public class TMock {
     public void testAdd() {
         int result = MathUtils.add(2, 3);
 
-        // 在单元测试中获取并验证调用堆栈信息
         Thread thread = Thread.currentThread();
         StackTraceElement[] stackTrace = thread.getStackTrace();
         for (int i = 0; i < stackTrace.length; i++) {
@@ -36,7 +35,6 @@ public class TMock {
 //            }
 //        }
 
-//         验证 add 方法是否被正确调用
 //        assertEquals(5, result);
 //        assertTrue(addMethodCalled);
     }

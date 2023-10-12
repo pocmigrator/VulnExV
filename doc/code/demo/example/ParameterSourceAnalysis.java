@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class ParameterSourceAnalysis {
     public static void main(String[] args) {
-        String filePath = "/Users/gaoyi/IdeaProjects/LLMPocMigration/testdata/Demo1.java";
+        String filePath = "/Users//IdeaProjects/LLMPocMigration/testdata/Demo1.java";
         CharStream inputStream = null;
         try {
             inputStream = CharStreams.fromFileName(filePath);

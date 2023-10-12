@@ -1,5 +1,5 @@
 1. Rule Result: None
-![img.png](img.png)
+![img.png](IdeaProjects/LLMPocMigration/doc/img.pngjects/LLMPocMigration/doc/img.png)
 
 
 

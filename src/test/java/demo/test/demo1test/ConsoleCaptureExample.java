@@ -23,7 +23,7 @@ public class ConsoleCaptureExample {
     public static void main33(String[] args) {
         try {
             int result = MathUtils.add(2, 3);
-            throw new Exception("这是一个示例异常");
+            throw new Exception("ex");
         } catch (Exception e) {
             StackTraceElement[] stackTrace = e.getStackTrace();
             for (StackTraceElement element : stackTrace) {
@@ -52,15 +52,11 @@ public class ConsoleCaptureExample {
             System.out.println(element.getClassName() + " - " + element.getMethodName() + " - " + element.getLineNumber());
         }
 
-        // 创建一个字节数组输出流，用于捕获输出内容
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        // 创建一个自定义的PrintStream，将输出重定向到字节数组输出流
         PrintStream customPrintStream = new PrintStream(outputStream);
 
-        // 将标准输出流重定向到自定义的PrintStream
         System.setOut(customPrintStream);
 
-        // 执行一些输出操作
         Map<Thread, StackTraceElement[]> allStackTraces = Thread.getAllStackTraces();
 
         allStackTraces.values().forEach(x->{
@@ -77,10 +73,8 @@ public class ConsoleCaptureExample {
 //        for (StackTraceElement element : elements) {
 //            System.out.println(element.getClassName() + " - " + element.getMethodName() + " - " + element.getLineNumber());
 //        }
-        // 恢复标准输出流
 //        System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out)));
 //
-//        // 获取捕获的输出内容并打印
 //        String capturedOutput = outputStream.toString();
 //        System.out.println("Captured Output:");
 //        System.out.println(capturedOutput);

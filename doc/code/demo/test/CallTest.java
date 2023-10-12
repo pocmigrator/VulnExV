@@ -13,7 +13,7 @@ public class CallTest {
         String userDir = System.getProperty("user.dir");
         String prompt ="write a unit test about network connection";
         String pythonPath = userDir + File.separator + "model" + File.separator;
-        String pythonPathTest = "/Users/gaoyi/PycharmProjects/nn_demo/gpt/test_generator.py";
+        String pythonPathTest = "/Users//PycharmProjects/nn_demo/gpt/test_generator.py";
         String outputPath = userDir + File.separator + "output" + File.separator + "Mytest.java";
 
         String[] args = new String[]{

@@ -111,8 +111,6 @@ public class MethodCallChainProcessor {
                         // input:
                         // all client methods, method's callees
                         // methodA
-                        // 找谁调用了methodA，并将其放到stack中
-                        // 自底向上找调用关系(m1被哪些m调用，递归)
                         addToCallIfNeed(pMethod, method, callers);
                     }
                 }
@@ -133,8 +131,6 @@ public class MethodCallChainProcessor {
             if (!m.isClientMethod()) {
                 continue;
             }
-//看看method有哪些pmethod在调用，现在有method的classname和methodname
-//pmethod有调用列表（callmethod），如果在调用列表，通过classname和method能找到pmethod，那就存在调用
             if (method.equals(pMethod)) {
                 continue;
             }

@@ -16,7 +16,7 @@ public class CallGraphExample {
 
     public static void main(String[] args) throws IOException {
         // 设置类路径和其他SOOT选项
-        String classPath = "/Users/gaoyi/IdeaProjects/LLMPocMigration/target/classes";
+        String classPath = "/Users//IdeaProjects/LLMPocMigration/target/classes";
         String mainClassEntry = "sootdemo.callgraph.MyClass";
         String classpath = System.getProperty("java.class.path");
         String javaLibDir = System.getProperty("java.home") + File.separator + "lib" + File.separator;

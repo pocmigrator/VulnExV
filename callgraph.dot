@@ -1,7 +1,0 @@
-digraph CallGraph {
-"<sootdemo.callgraph.MyClass: void methodA()>" -> "<sootdemo.callgraph.MyClass: void methodB()>";
-"<sootdemo.callgraph.MyClass: void methodB()>" -> "<sootdemo.callgraph.MyClass2: void <init>()>";
-"<sootdemo.callgraph.MyClass: void methodB()>" -> "<sootdemo.callgraph.MyClass2: void func1()>";
-"<sootdemo.callgraph.MyClass2: void func1()>" -> "<sootdemo.callgraph.MyClass2: void func2()>";
-"<sootdemo.callgraph.MyClass2: void func2()>" -> "<sootdemo.callgraph.MyClass2: void vulnerableMethod(java.lang.String)>";
-}

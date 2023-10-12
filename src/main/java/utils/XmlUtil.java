@@ -25,10 +25,6 @@ import java.nio.charset.StandardCharsets;
 
 /**
  * XmlUtil
- * Xml工具类
- *
- * @author Yanzheng (https://github.com/micyo202)
- * @date 2020/6/15
  */
 public class XmlUtil {
 
@@ -37,12 +33,10 @@ public class XmlUtil {
     private static final String XML_TAG = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
     /**
-     * 单例方法
      */
     private static XStream getInstance() {
         XStream xStream = new XStream(new DomDriver(StandardCharsets.UTF_8.name())) {
             /**
-             * 忽略xml中多余字段
              */
             @Override
             protected MapperWrapper wrapMapper(MapperWrapper next) {
@@ -57,9 +51,7 @@ public class XmlUtil {
                 };
             }
         };
-        /**
-         * 设置默认的安全校验
-         */
+
         XStream.setupDefaultSecurity(xStream);
         /**
          * 使用本地的类加载器

@@ -35,9 +35,9 @@ public class MethodCallInterceptor {
         MethodCallLogger.targetMethodName = methodName;
         MethodCallLogger.targetArgs = args;
         try {
-            if (!aClass.getName().contains("ByteBuddy")) {  // 避免重复加载
+            if (!aClass.getName().contains("ByteBuddy")) {
                 DynamicType.Loaded<?> load = new ByteBuddy()
-                        .redefine(aClass)  // 拦截 AClass
+                        .redefine(aClass)
                         .visit(Advice.to(MethodCallLogger.class).on(named(methodName)))
                         .make()
                         .load(aClass.getClassLoader(), ClassReloadingStrategy.fromInstalledAgent());
