@@ -1,5 +1,5 @@
 # VulnExV
-> This tool aims to help you verify **the potential vulnerability exploitation risk** of third-party libraries used in your project
+> This tool aims to help you verify **the potential vulnerability exploitation risk** of third-party libraries used in your project.
 > 
 **Paper: Automated Vulnerability Exploitation Verification for Third-party Library Dependencies in Client Software**
 
@@ -22,17 +22,17 @@ capability to create unit tests for vulnerability validation. To evaluate VulnEx
 vulnerabilities from various third-party libraries and conduct experiments on 36 real client projects. Besides, we
 also compare our approach with the representative tool TRANSFER. Our results demonstrate the effectiveness
 of VulnExV, with 166 out of 204 generated unit tests successfully confirming vulnerability exploitation across
-29 client projects, exceeding the baseline by more than 4.1 times
+29 client projects, exceeding the baseline by more than 4.1 times.
 
 
 ## Method
-> The implementation process of this method can be summarized as follows: first, perform code analysis on your project, and then attempt to generate unit tests that can exploit vulnerabilities in third-party libraries. If the test code is successfully generated, it indicates that you should be cautious, as your project may now be exposed to vulnerability exploitation risks. It is recommended to manually verify and address vulnerabilities in third-party libraries, such as upgrading library dependencies.
+> The implementation process of this method can be summarized as follows: first, perform code analysis on your project, and then attempt to generate unit tests that can exploit vulnerabilities in third-party libraries. If the test code is successfully generated, it indicates that you should be cautious, as your project may now be exposed to vulnerability exploitation risks. It is recommended to manually verify and address vulnerabilities in third-party libraries, such as upgrading library dependencies. 😄
 
 ![img.png](img.png)  
  
 A generated test may look like this:  
 
-```java
+``` java
 @Test public void testXml2ObjCallsVulnerabilityMethod() {
     String input = "<void>";
     // Set up an interceptor to detect calls to the XStream.fromXML method
