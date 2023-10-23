@@ -115,7 +115,6 @@
                 </executions>
                 <configuration>
                     <sourceDirectory>${basedir}/src/main/resources</sourceDirectory>
-                    <!-- 因为没有通过header，设置package，所以直接将代码生成到java目录 -->
                     <outputDirectory>${basedir}/src/main/java</outputDirectory>
                     <listener>true</listener>
                     <visitor>true</visitor>

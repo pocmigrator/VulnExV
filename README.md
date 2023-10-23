@@ -63,6 +63,10 @@ Invoke the GPT interface, which will produce complete test files.
 ### Step 4: Run Tests
 Place the generated test files and the `MethodCallInterceptor` into the target project's test directory, and then execute the unit tests, which will produce output results.
 
+
+> If unit test code for exploiting vulnerabilities has been generated and the generated unit tests pass when executed in the client's project, it indicates that the project is currently at risk of exploitation.
+
+
 ## Files
 src: source code
 dataset: project-list, result
